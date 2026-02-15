@@ -700,7 +700,7 @@ export const getKeyCodePrettyName = (keyCode) => {
 }
 export const getModifiedCharacter = (char) => {
     if (!isShiftDown()) return char
-    return shiftedCharacters[char] || char
+    return shiftedCharacters[char] || char.toUpperCase()
 }
 export const isKeyNameDown = (keyName) => {
     return isKeyCodeDown(getKeyCode(keyName))
