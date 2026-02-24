@@ -508,7 +508,11 @@ const keyNameToKeyDataMap = {
         modernKeycode: 331,
         prettyName: "Numpad /",
     },
-    // "KEY_SYSRQ": [183,],
+    "KEY_PRINTSCREEN": {
+        legacyKeycode: 183,
+        modernKeycode: 283,
+        prettyName: "Print Screen",
+    },
     "KEY_RMENU": {
         legacyKeycode: 184,
         modernKeycode: 346,
