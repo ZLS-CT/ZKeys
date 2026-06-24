@@ -1,7 +1,5 @@
 import { isLegacy } from "ZCore"
 
-const UKeyboard = Java.type("gg.essential.universal.UKeyboard")
-
 const mouseKeyOffset = 100
 const keyNameToKeyDataMap = {
     "KEY_UNKNOWN": {
